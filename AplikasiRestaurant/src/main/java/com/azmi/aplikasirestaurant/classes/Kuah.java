@@ -3,12 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.aplikasirestaurant.classes;
+package com.azmi.aplikasirestaurant.classes;
 
 /**
  *
  * @author azmi
  */
-public class Ramen {
-    public Ramen (String nama_ramen, double harga ) { }
+public class Kuah extends Menu {
+    public Kuah(String nama_kuah) {
+        setNama_menu(nama_kuah) ;
+        setHarga (0);
+        setKategori("Kuah");
+    }
 }

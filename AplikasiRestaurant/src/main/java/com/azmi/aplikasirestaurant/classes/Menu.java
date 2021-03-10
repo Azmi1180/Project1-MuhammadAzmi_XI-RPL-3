@@ -14,7 +14,7 @@ public class Menu {
     private double harga;
     private String kategori;
     
-    public String getNama_menu() {
+    public String getNamaMenu() {
         return nama_menu ;
     }
     
@@ -36,6 +36,10 @@ public class Menu {
     
     public void setKategori(String kategori) {
         this.kategori = kategori;
+    }
+
+    String getNamaMenu() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }

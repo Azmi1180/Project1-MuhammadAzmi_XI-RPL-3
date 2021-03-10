@@ -32,7 +32,7 @@ public class DaftarMenu {
         for (int i = 0; i < daftarMenu.size(); i++) {
             Menu m = daftarMenu.get(i);
             if (m.getKategori().equals(kategori)){
-                System.out.println((i + 1) + ". " + m.getNama_menu() + "/t" + m.getHarga());
+                System.out.println((i + 1) + ". " + m.getNamaMenu() + "/t" + m.getHarga());
             }
                     
         }
